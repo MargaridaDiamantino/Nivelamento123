@@ -23,6 +23,7 @@ project/
 Teste 1: Web Scraping
 Descrição:
 Faz download dos anexos em PDF do site da ANS e os compacta.
+javac -cp ".;libs/pdfbox-3.0.4.jar;libs/fontbox-3.0.4.jar;libs/commons-logging-1.2.jar;libs/pdfbox-io-3.0.4.jar;libs/opencsv-5.10.jar" PDFToCSVConverter.java
 
 Implementação:
 Java: WebScraper.java
